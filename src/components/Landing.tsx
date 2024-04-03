@@ -8,14 +8,14 @@ export const Landing = () => {
     <>
       <div className="h-screen w-full bg-blue-200 flex justify-center items-center">
         <Image
-          src={"/images/landing_bg.png"}
+          src={"/images/MarinaHacks_3.5_Landing.png"}
           alt='background'
           width="7560"
           height="4904"
           className={style.bg}
         />
         <Image
-          src={"/images/logo_long.png"}
+          src={"/images/MarinaHack_3.5_Landing_Logo.png"}
           alt='logo'
           width="588"
           height="115"
