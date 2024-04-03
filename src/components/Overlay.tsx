@@ -27,24 +27,24 @@ export const OverlayLayout = ({ children}: any) => {
       {showOverlay && (
         <div className="h-screen w-full bg-blue-200 flex justify-center items-center" >
         <Image
-          src={"/images/landing_bg.png"}
+          src={"/images/MarinaHacks_3.5_Landing.png"}
           alt='background'
           width="7560"
           height="4904"
           className={style.bg}
         />
         <Image
-          src={"/images/logo_long.png"}
+          src={"/images/MarinaHack_3.5_Landing_Logo.png"}
           alt='logo'
-          width="588"
-          height="115"
+          width="1000"
+          height="250"
           className={style.logo}
         />
         {/* <div className={style.wave}></div> */}
-        <div className={style.learnmore}>
+        {/* <div className={style.learnmore}>
           <button onClick={handleDismiss} className={style.text}>Learn More</button>
-        </div>
-        <div className="absolute bottom-[20%] left-[10%] flex column">
+        </div> */}
+        {/* <div className="absolute bottom-[20%] left-[10%] flex column">
           <a href="https://www.facebook.com/wic.csulb/" target='_blank'>
             <FaFacebook className={style.icons} />
           </a>
@@ -57,7 +57,7 @@ export const OverlayLayout = ({ children}: any) => {
           <a href="https://twitter.com/csulbwic" target='_blank'>
             <button><FaTwitter className={style.icons} /></button>
           </a>
-        </div>
+        </div> */}
       </div>
       )}
       <Layout showOverlay={showOverlay} setShowOverlay={setShowOverlay}>{children}</Layout>

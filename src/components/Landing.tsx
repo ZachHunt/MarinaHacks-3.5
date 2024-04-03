@@ -17,15 +17,15 @@ export const Landing = () => {
         <Image
           src={"/images/MarinaHack_3.5_Landing_Logo.png"}
           alt='logo'
-          width="588"
-          height="115"
+          width="1000"
+          height="250"
           className={style.logo}
         />
         {/* <div className={style.wave}></div> */}
         <div className={style.learnmore}>
           <button className={style.text}>Learn More</button>
         </div>
-        <div className="absolute bottom-[15%] left-[10%] flex column">
+        {/* <div className="absolute bottom-[15%] left-[10%] flex column">
           <a href="https://www.facebook.com/wic.csulb/" target='_blank'>
             <FaFacebook className={style.icons} />
           </a>
@@ -38,7 +38,7 @@ export const Landing = () => {
           <a href="https://twitter.com/csulbwic" target='_blank'>
             <button><FaTwitter className={style.icons} /></button>
           </a>
-        </div>
+        </div> */}
       </div>
     </>
   )

@@ -6,6 +6,8 @@
 
 .logo {
   position: absolute;
+  top: -35px; /* Set top to 200 pixels to move the logo to the top */
+  left: 120px; /* Set left to 150 pixels to move the logo to the left */
 }
 
 .wave {
